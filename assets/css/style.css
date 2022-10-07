@@ -15,16 +15,16 @@ h1{
 padding: 2rem 0;
 }
 
-.container,
-.ticket_container {
+.form_container,
+.ticket {
     width: 80%;
     margin: auto;
     background-color: white;
-    color: blue;
     padding: 1rem;
 }
 
-.container{
+.form_container{
+    color: blue;
     border-radius: 1rem;
     box-shadow: 0 0 10px black;
 }
@@ -39,6 +39,12 @@ padding: 2rem 0;
     flex-direction: column;
     padding: 0 3rem;
 }
+
+.col-2{
+    width: calc(100% /12 * 2);
+}
+
+
 
 label{
     padding: 1rem 0;
@@ -64,3 +70,24 @@ input{
     display: none;
 }
 
+.ticket{
+    color: black;
+    text-align: start;
+}
+
+.ticket_container>h2{
+    margin-bottom: 2rem;
+}
+.container{
+    margin: auto;
+    width: 90%;
+    margin-top: 1rem;
+    text-align: center;
+}
+.row_gap{
+    gap: 1rem;
+}
+
+h4{
+    margin: 0.75rem 0;
+}
