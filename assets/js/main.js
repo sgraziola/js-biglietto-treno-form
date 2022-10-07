@@ -29,7 +29,7 @@ btnEl.addEventListener ("click",
             //Aggiungere uno sconto del 40% per gli over 65.
             finalPrice = travelFullPrice - (travelFullPrice * seniorDiscount);
             //console.log(finalPrice);
-            saleEl.innerHTML = "Senior 20%";
+            saleEl.innerHTML = "Senior 40%";
         } else {
             saleEl.innerHTML = "Nessuna";
         }
