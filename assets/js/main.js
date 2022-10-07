@@ -46,4 +46,7 @@ btnEl.addEventListener ("click",
         // far apparire carrozza
         const carriageEl = document.querySelector("span.carriage");
         carriageEl.innerHTML = Math.floor(Math.random()*10 + 1);
+        //random CP number
+        const codexEl = document.querySelector("span.codex");
+        codexEl.innerHTML = Math.floor(Math.random()*90000 + 10000);
 });
