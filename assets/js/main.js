@@ -29,4 +29,8 @@ btnEl.addEventListener ("click",
         const ticketPrice = document.querySelector("span");
         ticketPrice.innerHTML = finalPrice.toFixed(2);
 
+        //far apparire il biglietto
+        const ticketEl = document.querySelector(".ticket_container");
+        ticketEl.style.display = "block";
+
 });

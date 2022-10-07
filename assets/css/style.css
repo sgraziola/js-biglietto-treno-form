@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.wrapper{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+h1{
+padding: 2rem 0;
+}
+
+.container,
+.ticket_container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    color: blue;
+    padding: 1rem;
+}
+
+.container{
+    border-radius: 1rem;
+    box-shadow: 0 0 10px black;
+}
+
+.row{
+    display: flex;
+}
+
+.col-4{
+    width: calc(100% /12 * 4);
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+label{
+    padding: 1rem 0;
+}
+
+input{
+    padding: 0.5rem 0;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.price{
+   margin: 2rem 0;
+   padding: 0.5rem 1rem;
+   color: blue;
+   font-weight: bold;
+   text-transform: uppercase;
+   background-color: white;
+}
+
+.ticket_container{
+    margin-top: 2rem;
+    display: none;
+}
+

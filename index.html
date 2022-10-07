@@ -8,14 +8,29 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <label for="km">Chilometri da percorrere</label>
-    <input id="km" type="number">
-    <label for="age">Età Passeggero</label>
-    <input id="age" type="number">
-    <button>Calcola prezzo</button>
-    
-    <p>Il costo del biglietto è di <span></span> €</p>
-    
+    <div class="wrapper">
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <label for="name">Nome Cognome</label>
+                    <input id="name" type="text">
+                </div>
+                <div class="col-4">
+                    <label for="km">Chilometri da percorrere</label>
+                    <input id="km" type="number">
+                </div>
+                <div class="col-4">
+                    <label for="age">Età Passeggero</label>
+                    <input id="age" type="number">
+                </div>
+            </div>
+            <button class="price">Genera il tuo biglietto!</button>
+        </div> 
+        <div class="ticket_container">
+            <p>Il costo del biglietto è di <span></span> €</p>
+        </div>
+    </div>
 
 
     <script src="./assets/js/main.js"></script>
